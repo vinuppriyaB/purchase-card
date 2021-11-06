@@ -1,0 +1,259 @@
+/* .navbar{
+    width: 70%;
+    margin:5px auto;
+    background-color: white;
+    height:80px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.navbar-logo{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    flex:1.2;
+
+
+}
+/* .navmenu-display{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex:4;
+
+} */
+/* .nav-menu{
+    display: grid;
+    list-style: none;
+    justify-content: end;
+    grid-gap:10px ;
+    grid-template-columns: repeat(3,auto);
+    background-color: blanchedalmond;
+    float:left;
+    padding: 0px;
+
+} */
+/* .nav-menu.active{
+    left:0;
+    opacity: 1;
+    transition: all 0.5s ease;
+} */
+
+/* .nav-item{
+    display: flex;
+    align-items: center;
+    height:80px;
+
+
+}
+.nav-links{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+    color: black;
+}
+@media screen and (max-width: 960px) {
+    .fa-caret-down {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 990px) {
+    .cart {
+      display: none;
+    }
+    /* .navmenu-display{
+        display: none;
+    } */
+    /* .menu-display-minwidth{
+        display: block;
+    } */
+    /* .nav-menu .active{
+        display: flex;
+        position: absolute;
+        top:80px;
+        left:0px;
+       width: 100%;
+    list-style: none;
+    flex-direction: column;
+    justify-content: end;
+    
+   
+    background-color: blanchedalmond;
+    
+    padding: 0px;
+
+    }
+  }
+  @media screen and (min-width: 990px) {
+    .menu-icon {
+      display: none;
+    }
+    .nav-menu {
+        display: none;
+    }
+  }
+.menu-icon{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border:2px solid black
+} */
+
+ 
+
+ 
+
+.dropdown-menu{
+    
+    position:absolute;
+    top:60px;
+    
+    z-index: 10;
+    list-style: none;
+    text-align: start;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color:white;
+    width:150px;
+    text-align: start;
+    padding:0px;
+    color: black; 
+    display: flex;
+    flex-direction: column;
+    
+    /* background-color: grey; */
+ }
+.dropdown-menu >li{
+    color:black;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.dropdown-menu >li:hover{
+    background-color: rgb(224, 220, 220);
+}
+.clicked{
+    display:none;
+}
+.dropdown-link{
+    display:flex;
+        width:100%;
+    
+    text-decoration: none;
+    color: black ;
+   }  
+   
+/* @media screen  and (min-width:800px){
+    .dropdown-shop{
+        position: relative;
+        background-color: teal;
+    }
+    .dropdown-menu{
+        position: absolute;
+        top:80px;
+        left:0px;
+    } */
+/* }    */
+
+     
+/* .header{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+} */
+
+.navbar{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width:70%;
+    margin:0px auto;
+    flex:1;
+   
+}
+.brand-title{
+    font-size: 1.5rem;
+    margin:.5rem;
+  
+}
+.menu-cart{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    flex:4;
+
+}
+.navbar-menu ul{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.navbar-menu li{
+    list-style: none;
+}
+.cart{
+    position: relative;
+    right:10px;
+}
+ .nav-links {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+}
+.toggle-btn{
+    position:absolute;
+    top:.75rem;
+    right:1rem;
+    display:none;
+    width:30px;
+    height:21px;
+    
+}
+@media (max-width:990px) {
+    .toggle-btn{
+        display:block;
+    }
+    .navbar-menu{
+        width:100%;
+       
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu-cart{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .navbar-menu ul{
+        width:100%;
+        flex-direction: column;
+
+    }
+    .navbar-menu li{
+        text-align: left;
+
+    }
+    .nav-links{
+        padding: .5rem 1rem;
+
+    }
+    .menu-cart-display{
+        display:none;
+    }
+}
+
+
+.back-btn{
+    position: absolute;
+    left:100px;
+}
+
